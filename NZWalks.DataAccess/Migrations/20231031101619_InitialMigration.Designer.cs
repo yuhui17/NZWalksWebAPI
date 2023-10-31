@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NZWalks.API.Data;
+using NZWalks.DataAccess.Data;
 
 #nullable disable
 
-namespace NZWalks.API.Migrations
+namespace NZWalks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20231031101619_InitialMigration")]

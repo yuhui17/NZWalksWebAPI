@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace NZWalks.API.Models.Domain
+namespace NZWalks.Model.Models.Domain
 {
     public class Walk
     {

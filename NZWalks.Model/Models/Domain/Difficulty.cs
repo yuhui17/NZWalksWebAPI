@@ -1,4 +1,4 @@
-﻿namespace NZWalks.API.Models.Domain
+﻿namespace NZWalks.Model.Models.Domain
 {
     public class Difficulty
     {
