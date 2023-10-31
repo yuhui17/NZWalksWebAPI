@@ -7,7 +7,6 @@ namespace NZWalks.API.Data
     {
         public ApplicationDbContext(DbContextOptions dbContextOptions) : base (dbContextOptions)
         {
-            
         }
 
         public DbSet<Difficulty> Difficulties { get; set; }
