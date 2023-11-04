@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NZWalks.DataAccess", "NZWal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NZWalks.Model", "NZWalks.Model\NZWalks.Model.csproj", "{ECBACAF3-CC28-45C8-99E8-EC26269CD4E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NZWalks.Web", "NZWalks.Web\NZWalks.Web.csproj", "{A183907F-9980-4E0A-A21B-5CCC60ECE011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{ECBACAF3-CC28-45C8-99E8-EC26269CD4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECBACAF3-CC28-45C8-99E8-EC26269CD4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECBACAF3-CC28-45C8-99E8-EC26269CD4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A183907F-9980-4E0A-A21B-5CCC60ECE011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A183907F-9980-4E0A-A21B-5CCC60ECE011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A183907F-9980-4E0A-A21B-5CCC60ECE011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A183907F-9980-4E0A-A21B-5CCC60ECE011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

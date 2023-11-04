@@ -1,0 +1,35 @@
+﻿@model NZWalks.Model.Models.DTOs.RegionDTO
+
+
+<h1 class="mt-3">Edit</h1>
+
+
+@if (Model is not null)
+{
+    <form method="post">
+        <div class="mt-3">
+            <label class="form-label">Id</label>
+            <input asp-for="Id" readonly type="text" class="form-control" />
+        </div>
+        <div class="mt-3">
+            <label class="form-label">Code</label>
+            <input asp-for="Code" type="text" class="form-control" />
+        </div>
+        <div class="mt-3">
+            <label class="form-label">Name</label>
+            <input asp-for="Name" type="text" class="form-control" />
+        </div>
+        <div class="mt-3">
+            <label class="form-label">Image URL</label>
+            <input asp-for="RegionImageUrl" type="text" class="form-control" />
+        </div>
+        <div class="mt-3 justify-content-between">
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+            <div class="mt-3">
+                <button type="submit" asp-action="Delete" asp-route-id="Id" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </form>
+}
