@@ -1,6 +1,6 @@
 # NZWalksWebAPI
 
-### What I Have Learned from This Course:
+### What I Have Learned from This Project:
 
 - Learn, Understand, and Create ASP.NET Core Web API From Scratch using .NET 7
 - Building scalable REST APIs from scratch using ASP.NET Core and C#
